@@ -1,0 +1,95 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#000000;
+}
+/**elementos-base*/
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color:#fff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.logo {
+    color:#E50914;
+    font-family: 'Arial Black', times;
+    font-size: 20%px;
+    margin-left:20px;
+
+}
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: px;
+}
+header nav a:hover{
+    color:#fff;
+
+}
+header .container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+/**filme-principal*/
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(https://www.themoviedb.org/t/p/original/2Sm3asuwKVNTzgm2nF6hp5mwEfh.jpg);
+    height:100%; width:100%;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.descricao{
+    margin-bottom:5px;
+    margin-top: 15px;
+}
+.titulo{
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+    
+    padding:25px 35px;
+    margin-right: 15px;
+    margin-top: 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 2s ease all;
+}
+.botao:hover{
+    background-color:white;
+    color: #000000;
+    
+}
+.botao i{
+    margin-right:15px;
+}
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+.carrosel-filmes{
+     margin-top:5px;
+}
+.inicio{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.series{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
